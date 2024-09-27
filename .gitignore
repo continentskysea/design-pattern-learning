@@ -1,0 +1,7 @@
+# ignore files
+/mold-method/src/tetmplateMethodParttern.drawio
+
+/mold-method/bin/tetmplateMethodParttern.drawio
+
+/mold-method/bin
+/mold-method/src/*.class
