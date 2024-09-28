@@ -1,3 +1,5 @@
+package mold_method;
+
 /**
  * 乗り物クラス(抽象クラス)
  */
@@ -8,5 +10,4 @@ public abstract class Vehicle {
     public abstract void stop();
     // クラクション
     public abstract void horn();
-
 }

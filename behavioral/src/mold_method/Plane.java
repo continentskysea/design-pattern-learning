@@ -1,3 +1,5 @@
+package mold_method;
+
 public class Plane extends Vehicle {
     @Override
     public void run() {

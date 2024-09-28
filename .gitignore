@@ -1,7 +1,12 @@
 # ignore files
-/mold-method/src/tetmplateMethodParttern.drawio
 
-/mold-method/bin/tetmplateMethodParttern.drawio
+# behavioral.src
+/behavioral/src/*.class
+# behavioral.src.mold_method
+/behavioral/src/mold_method/tetmplateMethodParttern.drawio
+/behavioral/src/mold_method/*.class
 
-/mold-method/bin
-/mold-method/src/*.class
+# behavioral.bin
+/behavioral/bin/tetmplateMethodParttern.drawio
+
+/behavioral/bin/*.class

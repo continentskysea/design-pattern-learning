@@ -1,3 +1,5 @@
+package mold_method;
+
 public class Ship extends Vehicle {
     @Override
     public void run() {
