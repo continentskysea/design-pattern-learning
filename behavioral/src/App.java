@@ -1,6 +1,6 @@
-import mold_method.Car;
-import mold_method.Ship;
-import mold_method.Plane;
+import template_method.Car;
+import template_method.Plane;
+import template_method.Ship;
 
 public class App {
     public static void main(String[] args) throws Exception {

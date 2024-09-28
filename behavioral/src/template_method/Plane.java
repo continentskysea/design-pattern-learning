@@ -1,4 +1,4 @@
-package mold_method;
+package template_method;
 
 public class Plane extends Vehicle {
     @Override

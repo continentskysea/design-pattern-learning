@@ -1,4 +1,4 @@
-package mold_method;
+package template_method;
 /**
  * 車クラス(乗り物クラスの具象クラス)
  */

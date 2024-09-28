@@ -1,4 +1,4 @@
-package mold_method;
+package template_method;
 
 /**
  * 乗り物クラス(抽象クラス)
