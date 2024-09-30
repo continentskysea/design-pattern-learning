@@ -1,5 +1,6 @@
 # ignore files
 
+# 振る舞い関連グループ
 # behavioral.src
 /behavioral/src/*.class
 # behavioral.src.template_method
@@ -10,3 +11,17 @@
 /behavioral/bin/tetmplateMethodParttern.drawio
 
 /behavioral/bin/*.class
+
+
+# 生成関連グループ
+
+# creational.src
+/creational/src/*.class
+# creational.src.template_method
+/creational/src/singleton/SingletonParttern.drawio
+/creational/src/singleton/*.class
+
+# creational.bin
+/creational/bin/tetmplateMethodParttern.drawio
+
+/creational/bin/*.class
