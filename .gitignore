@@ -15,11 +15,18 @@
 
 # 生成関連グループ
 
-# creational.src
+# creational
 /creational/src/*.class
-# creational.src.template_method
+# creational.src.singleton
 /creational/src/singleton/SingletonParttern.drawio
 /creational/src/singleton/*.class
+/creational/bin/singleton/
+
+# prototype
+/creational/src/prototype/*.class
+/creational/bin/prototype/
+
+
 
 # creational.bin
 /creational/bin/tetmplateMethodParttern.drawio
