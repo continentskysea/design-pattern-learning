@@ -32,3 +32,10 @@
 /creational/bin/tetmplateMethodParttern.drawio
 
 /creational/bin/*.class
+
+
+# 構造関係
+/structural/bin/
+/structural/src/adapter/adapters/*.class
+/structural/src/adapter/round/*.class
+/structural/src/adapter/square/*.class
