@@ -17,13 +17,18 @@
 
 # creational
 /creational/src/*.class
-# creational.src.singleton
+# シングルトンパターン
 /creational/src/singleton/SingletonParttern.drawio
 /creational/src/singleton/*.class
 /creational/bin/singleton/
+# ファクトリーメソッドパターン
+/creational/bin/factory_method/
 
-# prototype
-/creational/src/prototype/*.class
+
+# プロトタイプパターン
+/creational/src/factory_method/buttons/*.class
+/creational/src/factory_method/factory/*.class
+
 /creational/bin/prototype/
 
 

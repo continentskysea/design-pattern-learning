@@ -1,14 +1,21 @@
 // import singleton.Singleton;
 
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 
-import prototype.Circle;
-import prototype.Rectangle;
-import prototype.Shape;
+// import prototype.Circle;
+// import prototype.Rectangle;
+// import prototype.Shape;
+
+import factory_method.factory.Dialog;
+import factory_method.factory.HtmlDialog;
+import factory_method.factory.WindowsDialog;
 
 public class App {
+    private static Dialog dialog;
     public static void main(String[] args) throws Exception {
+        configure();
+        runBusinessLogic();
         // // Singleton Parttern
         // System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
         // "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
@@ -20,47 +27,59 @@ public class App {
         // System.out.println(singleton.value);
         // System.out.println(anotherSingleton.value);
         // Prototype Pattern
-        System.out.println("Prototype Pattern");
+        // System.out.println("Prototype Pattern");
 
-        List<Shape> shapes = new ArrayList<>();
-        List<Shape> shapesCopy = new ArrayList<>();
+        // List<Shape> shapes = new ArrayList<>();
+        // List<Shape> shapesCopy = new ArrayList<>();
 
-        Circle circle = new Circle();
-        circle.x = 10;
-        circle.y = 20;
-        circle.color = "red";
-        shapes.add(circle);
+        // Circle circle = new Circle();
+        // circle.x = 10;
+        // circle.y = 20;
+        // circle.color = "red";
+        // shapes.add(circle);
 
 
-        Circle anotherCircle =  (Circle) circle.clone();
-        shapes.add(anotherCircle);
+        // Circle anotherCircle =  (Circle) circle.clone();
+        // shapes.add(anotherCircle);
 
-        Rectangle rectangle = new Rectangle();
-        rectangle.width = 10;
-        rectangle.height = 20;
-        rectangle.color = "blue";
-        shapes.add(rectangle);
+        // Rectangle rectangle = new Rectangle();
+        // rectangle.width = 10;
+        // rectangle.height = 20;
+        // rectangle.color = "blue";
+        // shapes.add(rectangle);
 
-        cloneAndCompare(shapes, shapesCopy);
+        // cloneAndCompare(shapes, shapesCopy);
     }
 
-    private static void cloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy) {
-        for (Shape shape : shapes) {
-            shapesCopy.add(shape.clone());
-        }
+    // private static void cloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy) {
+    //     for (Shape shape : shapes) {
+    //         shapesCopy.add(shape.clone());
+    //     }
 
-        for (int i = 0; i < shapes.size(); i++) {
-            if (shapes.get(i) != shapesCopy.get(i)) {
-                System.out.println(i + ": Shapes are different objects (yay!)");
+    //     for (int i = 0; i < shapes.size(); i++) {
+    //         if (shapes.get(i) != shapesCopy.get(i)) {
+    //             System.out.println(i + ": Shapes are different objects (yay!)");
 
-                if (shapes.get(i).equals(shapesCopy.get(i))) {
-                    System.out.println(i + ": And they are identical (yay!)");
-                } else {
-                    System.out.println(i + " : But they are not identical (booo!)");
-                }
-            } else {
-                System.out.println(i + " : Shape objects are the same (booo!)");
-            }
+    //             if (shapes.get(i).equals(shapesCopy.get(i))) {
+    //                 System.out.println(i + ": And they are identical (yay!)");
+    //             } else {
+    //                 System.out.println(i + " : But they are not identical (booo!)");
+    //             }
+    //         } else {
+    //             System.out.println(i + " : Shape objects are the same (booo!)");
+    //         }
+    //     }
+    // }
+
+    static void configure() {
+        if (System.getProperty("os.name").equals("Windows 10")) {
+            dialog = new WindowsDialog();
+        } else {
+            dialog = new HtmlDialog();
         }
+    }
+
+    static void runBusinessLogic() {
+        dialog.renderWindow();
     }
 }
