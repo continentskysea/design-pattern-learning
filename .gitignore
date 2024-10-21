@@ -1,28 +1,38 @@
 # ignore files
 
 # 振る舞い関連グループ
-# behavioral.src
+
+### バイナリデータ ###
+/behavioral/bin/
+
+### 実行クラス ###
 /behavioral/src/*.class
-# behavioral.src.template_method
+
+# templateMethodパターン
 /behavioral/src/template_method/tetmplateMethodParttern.drawio
 /behavioral/src/template_method/*.class
+
+# observerパターン
+/behavioral/src/observer/editor/*.class
+/behavioral/src/observer/listeners/*.class
+/behavioral/src/observer/publisher/*.class
 
 # behavioral.bin
 /behavioral/bin/tetmplateMethodParttern.drawio
 
-/behavioral/bin/*.class
-
 
 # 生成関連グループ
 
-# creational
+### バイナリデータ ###
+/creational/bin/
+
+### 実行クラス ###
 /creational/src/*.class
+
 # シングルトンパターン
 /creational/src/singleton/SingletonParttern.drawio
 /creational/src/singleton/*.class
-/creational/bin/singleton/
-# ファクトリーメソッドパターン
-/creational/bin/factory_method/
+
 
 
 # プロトタイプパターン
@@ -40,7 +50,9 @@
 
 
 # 構造関係
+### バイナリデータ ###
 /structural/bin/
+
 /structural/src/adapter/adapters/*.class
 /structural/src/adapter/round/*.class
 /structural/src/adapter/square/*.class
