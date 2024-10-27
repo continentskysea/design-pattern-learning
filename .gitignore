@@ -17,6 +17,12 @@
 /behavioral/src/observer/listeners/*.class
 /behavioral/src/observer/publisher/*.class
 
+# iteratorパターン
+/behavioral/src/iterator/iterators/*.class
+/behavioral/src/iterator/profile/*.class
+/behavioral/src/iterator/social_networks/*.class
+/behavioral/src/iterator/spammer/*.class
+
 # behavioral.bin
 /behavioral/bin/tetmplateMethodParttern.drawio
 
