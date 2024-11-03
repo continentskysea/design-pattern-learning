@@ -23,6 +23,10 @@
 /behavioral/src/iterator/social_networks/*.class
 /behavioral/src/iterator/spammer/*.class
 
+# strategyパターン
+/behavioral/src/strategy/order/*.class
+/behavioral/src/strategy/strategies/*.class
+
 # behavioral.bin
 /behavioral/bin/tetmplateMethodParttern.drawio
 
@@ -68,3 +72,5 @@
 # facadeパターン
 /structural/src/facade/facades/*.class
 /structural/src/facade/some_complex_media_library/*.class
+
+
