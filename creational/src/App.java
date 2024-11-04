@@ -7,15 +7,36 @@
 // import prototype.Rectangle;
 // import prototype.Shape;
 
-import factory_method.factory.Dialog;
-import factory_method.factory.HtmlDialog;
-import factory_method.factory.WindowsDialog;
+// import factory_method.factory.Dialog;
+// import factory_method.factory.HtmlDialog;
+// import factory_method.factory.WindowsDialog;
+
+// import builder.builders.CarBuilder;
+// import builder.builders.CarManualBuilder;
+// import builder.cars.Car;
+// import builder.cars.Manual;
+// import builder.director.Director;
 
 public class App {
-    private static Dialog dialog;
+    // private static Dialog dialog;
     public static void main(String[] args) throws Exception {
-        configure();
-        runBusinessLogic();
+        // System.out.println("builderパターン");
+        // Director director = new Director();
+
+        // CarBuilder builder = new CarBuilder();
+        // director.constructSportsCar(builder);
+
+        // Car car = builder.getResult();
+        // System.out.println("Car built:\n" + car.getCarType());
+
+        // CarManualBuilder manualBuilder = new CarManualBuilder();
+
+        // director.constructSportsCar(manualBuilder);
+        // Manual carManual = manualBuilder.getResult();
+        // System.out.println("\nCar manual built:\n" + carManual.pring());
+        
+        // configure();
+        // runBusinessLogic();
         // // Singleton Parttern
         // System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
         // "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
@@ -71,15 +92,15 @@ public class App {
     //     }
     // }
 
-    static void configure() {
-        if (System.getProperty("os.name").equals("Windows 10")) {
-            dialog = new WindowsDialog();
-        } else {
-            dialog = new HtmlDialog();
-        }
-    }
+    // static void configure() {
+    //     if (System.getProperty("os.name").equals("Windows 10")) {
+    //         dialog = new WindowsDialog();
+    //     } else {
+    //         dialog = new HtmlDialog();
+    //     }
+    // }
 
-    static void runBusinessLogic() {
-        dialog.renderWindow();
-    }
+    // static void runBusinessLogic() {
+    //     dialog.renderWindow();
+    // }
 }

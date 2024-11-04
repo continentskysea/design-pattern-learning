@@ -51,6 +51,11 @@
 
 /creational/bin/prototype/
 
+# builderパターン
+/creational/src/builder/builders/*.class
+/creational/src/builder/cars/*.class
+/creational/src/builder/components/*.class
+/creational/src/builder/director/*.class
 
 
 # creational.bin
