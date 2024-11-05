@@ -58,6 +58,12 @@
 /creational/src/builder/director/*.class
 
 
+# AbstractFactoryパターン
+/creational/src/abstract_factory/app/*.class
+/creational/src/abstract_factory/buttons/*.class
+/creational/src/abstract_factory/checkboxes/*.class
+/creational/src/abstract_factory/factories/*.class
+
 # creational.bin
 /creational/bin/tetmplateMethodParttern.drawio
 
