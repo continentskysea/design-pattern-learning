@@ -74,14 +74,16 @@
 ### バイナリデータ ###
 /structural/bin/
 
+# src
+/structural/src/*.class
 # adapterパターン
 /structural/src/adapter/adapters/*.class
 /structural/src/adapter/round/*.class
 /structural/src/adapter/square/*.class
-
-
 # facadeパターン
 /structural/src/facade/facades/*.class
 /structural/src/facade/some_complex_media_library/*.class
-
+# bridgeパターン
+/structural/src/bridge/devices/*.class
+/structural/src/bridge/remotes/*.class
 
