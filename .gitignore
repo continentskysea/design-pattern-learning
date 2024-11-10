@@ -27,6 +27,10 @@
 /behavioral/src/strategy/order/*.class
 /behavioral/src/strategy/strategies/*.class
 
+# ChainOfResponsibilityパターン
+/behavioral/src/chain_of_responsibility/middleware/*.class
+/behavioral/src/chain_of_responsibility/server/*.class
+
 # behavioral.bin
 /behavioral/bin/tetmplateMethodParttern.drawio
 
