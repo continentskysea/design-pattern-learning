@@ -31,6 +31,11 @@
 /behavioral/src/chain_of_responsibility/middleware/*.class
 /behavioral/src/chain_of_responsibility/server/*.class
 
+# Commandパターン
+/behavioral/src/command/commands/*.class
+/behavioral/src/command/editor/*.class
+
+
 # behavioral.bin
 /behavioral/bin/tetmplateMethodParttern.drawio
 
