@@ -95,4 +95,9 @@
 # bridgeパターン
 /structural/src/bridge/devices/*.class
 /structural/src/bridge/remotes/*.class
+# compositeパターン
+/structural/src/composite/editor/*.class
+/structural/src/composite/shapes/*.class
+
+
 
