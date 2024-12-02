@@ -98,6 +98,6 @@
 # compositeパターン
 /structural/src/composite/editor/*.class
 /structural/src/composite/shapes/*.class
-
-
-
+# flyweightパターン
+/structural/src/flyweight/trees/*.class
+/structural/src/flyweight/forest/*.class
