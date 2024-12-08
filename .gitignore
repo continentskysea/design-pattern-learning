@@ -101,3 +101,7 @@
 # flyweightパターン
 /structural/src/flyweight/trees/*.class
 /structural/src/flyweight/forest/*.class
+# proxyパターン
+/structural/src/proxy/downloader/*.class
+/structural/src/proxy/proxy/*.class
+/structural/src/proxy/some_cool_media_library/*.class
