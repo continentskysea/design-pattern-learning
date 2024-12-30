@@ -40,6 +40,12 @@
 /behavioral/bin/tetmplateMethodParttern.drawio
 
 
+# mediatorパターン
+/behavioral/src/MediatorPatternDemo.class
+/behavioral/src/mediator/component/*.class
+/behavioral/src/mediator/mediator/*.class
+
+
 # 生成関連グループ
 
 ### バイナリデータ ###
