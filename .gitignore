@@ -45,6 +45,11 @@
 /behavioral/src/mediator/component/*.class
 /behavioral/src/mediator/mediator/*.class
 
+# stateパターン
+/behavioral/src/StatePatternDemo.class
+/behavioral/src/state/states/*.class
+/behavioral/src/state/ui/*.class
+
 
 # 生成関連グループ
 
