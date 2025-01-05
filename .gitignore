@@ -50,6 +50,10 @@
 /behavioral/src/state/states/*.class
 /behavioral/src/state/ui/*.class
 
+# visitorパターン
+/behavioral/src/VisitorPatternDemo.class
+/behavioral/src/visitor/visitor/*.class
+/behavioral/src/visitor/shapes/*.class
 
 # 生成関連グループ
 
