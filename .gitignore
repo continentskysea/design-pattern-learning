@@ -55,6 +55,14 @@
 /behavioral/src/visitor/visitor/*.class
 /behavioral/src/visitor/shapes/*.class
 
+# mementoパターン
+/behavioral/src/MementoDemo.class
+/behavioral/src/memento/commands/*.class
+/behavioral/src/memento/editor/*.class
+/behavioral/src/memento/history/*.class
+/behavioral/src/memento/shapes/*.class
+
+
 # 生成関連グループ
 
 ### バイナリデータ ###
